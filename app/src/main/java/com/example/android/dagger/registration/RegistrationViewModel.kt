@@ -26,6 +26,7 @@ import javax.inject.Inject
  */
 //inject tells the dagger how to provide    instance of this type
 //dagger also knows UserManager is a dependency
+
 @ActivityScope
 class RegistrationViewModel @Inject constructor (val userManager: UserManager) {
 
